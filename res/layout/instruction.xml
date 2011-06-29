@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#f9f9f9">
+
+
+	<LinearLayout android:id="@+id/widget32"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:background="#f9f9f9" android:orientation="vertical">
+
+		<TextView android:id="@+id/instruction_title_textview"
+			android:layout_width="fill_parent" android:layout_height="30px"
+			android:text="@string/instruction_title" android:textColor="#333333"
+			android:textSize="22px" android:gravity="center_horizontal">
+		</TextView>
+
+		<TextView android:id="@+id/instruction_textview"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:text="@string/instruction_text" android:textColor="#333333"
+			android:textSize="12px" android:gravity="left">
+		</TextView>
+
+	</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+	<LinearLayout android:id="@+id/widget32"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:background="#f9f9f9" android:orientation="vertical"
+		>
+
+		<TextView android:id="@+id/cheatsheet_title_textview"
+			android:layout_width="fill_parent" android:layout_height="30px"
+			android:text="@string/cheatsheet_title" android:textColor="#333333"
+			android:textSize="22px" android:gravity="center_horizontal">
+		</TextView>
+
+		<TextView android:id="@+id/instruction_textview_type1_title"
+			android:layout_width="fill_parent" android:text="@string/cheatsheet_text_type1_title"
+			android:textColor="#333333" android:textSize="15px" android:gravity="center_horizontal"
+			android:layout_height="wrap_content">
+		</TextView>
+
+		<ImageView android:id="@+id/imageView_type1" android:src="@drawable/type_1"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+			
+		
+		<TextView android:id="@+id/instruction_textview_type1"
+			android:layout_width="fill_parent" android:text="@string/cheatsheet_text_type1"
+			android:textColor="#333333" android:textSize="12px" android:gravity="left"
+			android:layout_height="wrap_content">
+		</TextView>
+
+		<TextView android:id="@+id/instruction_textview_type2_title"
+			android:layout_width="fill_parent" android:text="@string/cheatsheet_text_type2_title"
+			android:textColor="#333333" android:textSize="15px" android:gravity="center_horizontal"
+			android:layout_height="wrap_content">
+		</TextView>
+
+		<ImageView android:id="@+id/imageView_type2" android:src="@drawable/type_2"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+
+		<TextView android:id="@+id/instruction_textview_type2"
+			android:layout_width="fill_parent" android:text="@string/cheatsheet_text_type2"
+			android:textColor="#333333" android:textSize="12px" android:gravity="left"
+			android:layout_height="wrap_content">
+		</TextView>
+		
+		<TextView android:id="@+id/instruction_textview_type3_title"
+			android:layout_width="fill_parent" android:text="@string/cheatsheet_text_type3_title"
+			android:textColor="#333333" android:textSize="15px" android:gravity="center_horizontal"
+			android:layout_height="wrap_content">
+		</TextView>
+
+		<ImageView android:id="@+id/imageView_type3" android:src="@drawable/type_3"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageView>
+
+		<TextView android:id="@+id/instruction_textview_type3"
+			android:layout_width="fill_parent" android:text="@string/cheatsheet_text_type3"
+			android:textColor="#333333" android:textSize="12px" android:gravity="left"
+			android:layout_height="wrap_content">
+		</TextView>
+	</LinearLayout>
+</ScrollView>

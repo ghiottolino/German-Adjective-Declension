@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, QuizActivity!</string>
+    <string name="app_name">German Adjective Declension</string>
+    <string name="play_game">Play Game</string>
+    <string name="instruction">Instruction</string>
+    <string name="cheatsheet">Cheatsheet</string>
+    <string name="instruction_title">Instruction</string>
+    <string name="cheatsheet_title">Cheatsheet</string>
+    <string name="instruction_text">
+    The purpose of the game is to decline the adjective of the given german sentences, according to gender, number and case of the noun and the type of declination (definite articles, undefinite articles, null articles), see the cheatsheet page for more information about adjective declension.\n
+	\n
+	The gender (or number) of the noun is given in brackets at the end of the sentence:\n
+	m = masculine\n
+	f = feminine\n
+	n = neutral\n
+	p = plural.\n
+	\n
+  	For the definite and indefinite articles declension, this information together with the article is enough to derive the case (nominative, accusative, dative or genitive) and decline the adjective.\n
+  	\n
+  	For the last case (null article), the case is given (in brackets at the end of the sentence) because it cannot be derived:\n
+  	n = nominative\n
+  	a = accusative\n
+  	d = dative\n
+  	g = genitive.\n
+  	</string>
+    <string name="cheatsheet_text_type1_title">
+    \n
+    \n
+    Type 1\n
+    \n
+    (definite article + adjective + noun)\n
+    </string>
+    <string name="cheatsheet_text_type1">
+    e.g.: das gute Kind\n
+    \n
+    also with demonstrative articles, interrogative particles and some distributives:\n
+    \n
+    definite articles: der, die, das, den, .. \n
+    \n
+    demonstrative articles: dieser, dieses, diese, jener, jenes, jene, derselbe, dasselbe, dieselbe, .. \n
+    \n
+    interrogative particles: welcher, welches, welche, .. \n
+    \n
+    distributives: jeder, jedes, jede, .. \n
+    \n
+    \n
+    \n
+    </string> 
+    <string name="cheatsheet_text_type2_title">
+    Type 2\n
+    \n
+    (indefinite article + adjective + noun)\n
+    </string>
+    <string name="cheatsheet_text_type2">
+    e.g.: ein gutes Kind\n
+    \n
+    also with negation articles, possessive articles:\n
+    \n
+    indefinite articles: ein, eine, einen, .. \n
+    \n
+    negation articles: kein, keine, .. \n
+    \n
+    possessive articles: mein, meine, .. \n
+    \n
+    distributives: jeder, jedes, jede, .. \n
+    \n
+    \n
+    \n
+    </string>
+    
+    <string name="cheatsheet_text_type3_title">
+    Type 3\n
+    \n
+    (null article + adjective + noun)\n
+    </string> 
+    <string name="cheatsheet_text_type3">
+    e.g.: alter Mann\n
+    \n
+    also with digits, some distributives, relative pronomes:\n
+    \n
+    digits: 1, 2, 3, .. \n
+    \n
+    distributives (plural): einige, viele, wenige, etliche, andere, manche, .. \n
+    \n
+    distributives (singular): viel, mehr, wenig, .. \n
+    \n
+    relative pronomes (genitiv): dessen, deren, .. \n
+    \n
+    </string>
+    
+</resources>
